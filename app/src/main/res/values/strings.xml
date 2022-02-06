@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Driver POS</string>
+    <string name="customer_name">Customer Name:</string>
+    <string name="logo">logo</string>
+
+    <string name="scr01_Print_Btn">Print Delivery Note</string>
+    <string name="scr01_next_Btn">Next</string>
+    <string name="scr01_prev_Btn">Previous</string>
+    <string name="scr01_Admin_Btn">Administration </string>
+    <string name="scr01_find">Find</string>
+
+    <string name="src01_Qty">Add Qty in Litres:</string>
+    <string name="scr01_Qty_text">Quantity in Litres </string>
+    <string name="Print">Print</string>
+    <string name="DistName">Dist Name </string>
+     <string name="scr01_customer">Customer:</string>
+    <string name="scr01_administration">Administration</string>
+    <string name="scr01a_customer">Customer Details</string>
+
+    <string name="scr02_DistName">Dist Name: </string>
+    <string name="scr02_DistAddr">Address: </string>
+    <string name="scr02_Order">Order: </string>
+    <string name="scr02_DistNamePtx"> </string>
+    <string name="scr02_DistOrderPtx"> </string>
+    <string name="scr02_DistAddressPtx"> </string>
+    <string name="scr_02_PrintBtn">Print</string>
+    <string name="scr_02_MainBtn">Main</string>
+    <string name="scr02_textview">scr02_TextView</string>
+    <string name="scr02a_textview">TextView</string>
+    <string name="scr02b_textview">TextView</string>
+    <string name="scr02_delivery_note">Delivery Note</string>
+    <string name="scr02s_textview">scr02_TextView</string>
+    <string name="scr02s_next">Next</string>
+    <string name="scr02sa_textview">TextView</string>
+    <string name="scr02sb_textview">TextView</string>
+    <string name="scr02_please_sign_below">Please Sign Below</string>
+    <string name="scr02_customer">Customer</string>
+
+    <string name="scr04_Save_Btn">Save</string>
+    <string name="scr04_View_Btn">View</string>
+    <string name="scr04_fName_txt">File Name: </string>
+    <string name="scr04_Data_Btn">Data</string>
+    <string name="textview">TextView</string>
+    <string name="scr04_Main_Btn">Main</string>
+    <string name="scr04_Editfile">Filename</string>
+    <string name="file_name">file name</string>
+    <string name="data">data</string>
+    <string name="title_activity_write_to">writeTo</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="scr05_Save_Btn">Save</string>
+    <string name="scr05_Main_Btn">Back to Main</string>
+    <string name="scr05_export">Export</string>
+    <string name="scr05_details">Details</string>
+    <string name="scr05_export_csv">Export CSV</string>
+
+    <string name="scr06_files">Files</string>
+    <string name="scr06_export">Export</string>
+    <string name="scr06_driver_id">Driver ID:</string>
+    <string name="scr06_driver_nme">Driver Name</string>
+    <string name="scr06_save">Save</string>
+    <string name="scr06_textview">TextView</string>
+
+    <string name="scr07_share_email">Share Email:</string>
+    <string name="scr07_settings">Settings</string>
+    <string name="scr_07pass_code">Pass Code:</string>
+
+
+
+    <string name="administration">Administration</string>
+    <string name="import_clients_csv">Import Clients CSV</string>
+    <string name="export_orders_csv">Export Orders CSV</string>
+    <string name="files_storage">Files Storage</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="settings">Settings</string>
+    <string name="print">Print</string>
+    <string name="customer">Customer</string>
+    <string name="select_csv_file_first">Select CSV File first</string>
+    <string name="load_csv_file">Load CSV File</string>
+    <string name="search">Search</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_print_p_d_f">printPDF</string>
+    <string name="savepdf">SavePDF</string>
+
+
+</resources>
