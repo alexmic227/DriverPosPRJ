@@ -14,7 +14,7 @@ import mt.tts.driverpos.R
 class Admin : BaseActivity() {
 
     private var m_Text = ""
-
+//Administration screen
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin)
