@@ -3,7 +3,6 @@ package mt.tts.driverpos.Controller
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_delivery_note.*
 import kotlinx.android.synthetic.main.activity_delivery_note.scr_02_Main
 import kotlinx.android.synthetic.main.activity_settings.*
 import mt.tts.driverpos.R
@@ -32,7 +31,7 @@ class SettingsSave : BaseActivity() {
 
 
 
-        saveBtn.setOnClickListener() {
+        saveBtn.setOnClickListener {
             var drvid = DriverID.text.toString()
             var shareeml = ShareEmail.text.toString()
             var passwrd = LockPass.text.toString()

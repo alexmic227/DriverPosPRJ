@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\User\\OneDrive - Twenty Two Seven\\Documents\\Development\\Kotlin\\EasyGas\\AndroidDriverPos\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw210dp-v13\\values-sw210dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\aff3a3a64b93c3174b2ff92525b746cb\\wear-1.1.0\\res\\values-sw210dp-v13\\values-sw210dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,198,265",
+                        "endColumns": "70,71,66,54",
+                        "endOffsets": "121,193,260,315"
+                    }
+                }
+            ]
+        }
+    ]
+}

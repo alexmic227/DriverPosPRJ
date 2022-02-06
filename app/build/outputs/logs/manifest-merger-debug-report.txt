@@ -1,0 +1,324 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:56:9-65:20
+	android:grantUriPermissions
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:61:13-47
+	android:enabled
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:59:13-35
+	android:authorities
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:58:13-60
+	android:exported
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:57:13-62
+manifest
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+MERGED from [com.github.gcacace:signature-pad:1.3.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7d1ec7c71ab952aebdaadd692410b6e5\jetified-signature-pad-1.3.1\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\46f061eba974b701f2207ac83f915301\navigation-fragment-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\20d874fd182f173b6cb91fc6c0101ab0\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c5af258cf757381ed82398d7efc74f37\navigation-ui-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\391fbd79fac1a14510e7f1c77a718e29\navigation-runtime-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a33f21ef9fefc7483c60f0ddc9ab56f5\navigation-common-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\372599589c06849860db53852f126b18\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\81d64e8858ca683b83ae5e7a40c98cc2\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0b0a345ffc1d02f4efcf4f88b224007\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\86ceb41f5b5309f904ca679e3d5a6980\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d52d25ec8e48991e03cda065cf55b05f\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\39401db22d28c85bc91e2d05672d6a66\navigation-ui-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56d5ad0e9feb03e78c08c29c6f01fbd1\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.wear:wear:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\aff3a3a64b93c3174b2ff92525b746cb\wear-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\941772ae6ce1b8026d0a2fb4adeaebef\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ac37f04b22e675c43307e70d4d93fa01\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a19f8e190be6dfcf291960608f59da64\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2b45cbcf9f23fafee62d39fb184f3df8\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\dabdef42d6e22d10355ff5cf1b9ae375\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f7c140f6f54c38cfd795d6f29077c46\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5d902c19b20fcea9408a071d024ef37f\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1a44345a77be74b195f18e5080d226ed\navigation-fragment-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\16d7dbf726f45bf87ad853f49c213f3a\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6974fef259cf7f9508452f4cc7f9383\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\96a8e6e6603f9d925485e4fb52cd69eb\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d8adef6a23f2a2f7bd3f9fdd1f68312d\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3a70f7e0546a4bebbc8876532cd3b75b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3bc06230401b37c2a5231601daee211f\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5ccb87009cbc0bc952edb7b068430603\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\211df7fa985c2f01143797b6378e1d4e\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e6664976a7c5e8b10a9965aa7a6e98ee\navigation-runtime-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fb4c8e5bd2fd3ea6ed97104b28054599\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e631c0f4e3ee8036c4a6ffffcaa9d8b8\navigation-common-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9fb4e3e81723a9628fb6f64842d6a72e\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\340cc00c3e4d16cbf9f4f2e55bef10c7\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\63786d2f5f5ed99d7bd2ff059f6718a1\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce95c830c34f7a393ea0fd2253bd6d4e\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a215aa75c2e2721dbe15a1e4bed798fb\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a21114b8b7c3afb4a56314d54afbda97\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\78ae0d41f904045c7c4e4de191df5215\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c384596651bd8f0a88a1e721d0564782\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\de6b11dce8ad35dd829758ea169fb0c9\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3f8dbfb15cf9d99fc14156456c7e273b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6626e3aa78c516a1a4277055022b73a6\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\81c46d059f835de5cd4562cfae3f5b1b\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ff8ae116b0f74cd195c3571248e09b74\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:4:5-31
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:1-72:12
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:6:22-65
+queries
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:8:4-10:15
+package#com.zebra.printconnect
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:9:9-58
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:9:18-55
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:18:5-74
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:18:22-71
+uses-permission#android.permission.NFC
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:19:5-62
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:19:22-59
+application
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:21:5-70:19
+MERGED from [com.github.gcacace:signature-pad:1.3.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7d1ec7c71ab952aebdaadd692410b6e5\jetified-signature-pad-1.3.1\AndroidManifest.xml:11:5-20
+MERGED from [com.github.gcacace:signature-pad:1.3.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7d1ec7c71ab952aebdaadd692410b6e5\jetified-signature-pad-1.3.1\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56d5ad0e9feb03e78c08c29c6f01fbd1\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56d5ad0e9feb03e78c08c29c6f01fbd1\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\941772ae6ce1b8026d0a2fb4adeaebef\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\941772ae6ce1b8026d0a2fb4adeaebef\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9fb4e3e81723a9628fb6f64842d6a72e\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9fb4e3e81723a9628fb6f64842d6a72e\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce95c830c34f7a393ea0fd2253bd6d4e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce95c830c34f7a393ea0fd2253bd6d4e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:25:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9fb4e3e81723a9628fb6f64842d6a72e\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:26:9-54
+	android:icon
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:28:9-47
+meta-data#com.google.android.wearable.standalone
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:36:9-38:36
+	android:value
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:38:13-33
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:37:13-66
+activity#mt.tts.driverpos.Controller.BaseActivity
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:40:9-61
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:40:19-58
+activity#mt.tts.driverpos.Controller.DeliveryNote
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:41:9-61
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:41:19-58
+activity#mt.tts.driverpos.Controller.ExportFile
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:42:9-59
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:42:19-56
+activity#mt.tts.driverpos.Controller.InputActivity
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:43:9-62
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:43:19-59
+activity#mt.tts.driverpos.Controller.SettingsSave
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:44:9-61
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:44:19-58
+activity#mt.tts.driverpos.Controller.Admin
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:45:9-54
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:45:19-51
+activity#mt.tts.driverpos.Controller.SignatureActivity
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:46:9-66
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:46:19-63
+activity#mt.tts.driverpos.Controller.FilesActivity
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:47:9-62
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:47:19-59
+activity#mt.tts.driverpos.Controller.MainActivity
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:48:9-54:20
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:48:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:52:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:67:9-69:57
+	android:resource
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:69:13-54
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:68:13-43
+uses-sdk
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+MERGED from [com.github.gcacace:signature-pad:1.3.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7d1ec7c71ab952aebdaadd692410b6e5\jetified-signature-pad-1.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gcacace:signature-pad:1.3.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7d1ec7c71ab952aebdaadd692410b6e5\jetified-signature-pad-1.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\46f061eba974b701f2207ac83f915301\navigation-fragment-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\46f061eba974b701f2207ac83f915301\navigation-fragment-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\20d874fd182f173b6cb91fc6c0101ab0\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\20d874fd182f173b6cb91fc6c0101ab0\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c5af258cf757381ed82398d7efc74f37\navigation-ui-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c5af258cf757381ed82398d7efc74f37\navigation-ui-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\391fbd79fac1a14510e7f1c77a718e29\navigation-runtime-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\391fbd79fac1a14510e7f1c77a718e29\navigation-runtime-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a33f21ef9fefc7483c60f0ddc9ab56f5\navigation-common-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a33f21ef9fefc7483c60f0ddc9ab56f5\navigation-common-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\372599589c06849860db53852f126b18\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\372599589c06849860db53852f126b18\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\81d64e8858ca683b83ae5e7a40c98cc2\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\81d64e8858ca683b83ae5e7a40c98cc2\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0b0a345ffc1d02f4efcf4f88b224007\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0b0a345ffc1d02f4efcf4f88b224007\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\86ceb41f5b5309f904ca679e3d5a6980\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\86ceb41f5b5309f904ca679e3d5a6980\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d52d25ec8e48991e03cda065cf55b05f\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d52d25ec8e48991e03cda065cf55b05f\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\39401db22d28c85bc91e2d05672d6a66\navigation-ui-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\39401db22d28c85bc91e2d05672d6a66\navigation-ui-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56d5ad0e9feb03e78c08c29c6f01fbd1\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\56d5ad0e9feb03e78c08c29c6f01fbd1\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\aff3a3a64b93c3174b2ff92525b746cb\wear-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.wear:wear:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\aff3a3a64b93c3174b2ff92525b746cb\wear-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\941772ae6ce1b8026d0a2fb4adeaebef\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\941772ae6ce1b8026d0a2fb4adeaebef\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ac37f04b22e675c43307e70d4d93fa01\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ac37f04b22e675c43307e70d4d93fa01\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a19f8e190be6dfcf291960608f59da64\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a19f8e190be6dfcf291960608f59da64\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2b45cbcf9f23fafee62d39fb184f3df8\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2b45cbcf9f23fafee62d39fb184f3df8\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\dabdef42d6e22d10355ff5cf1b9ae375\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\dabdef42d6e22d10355ff5cf1b9ae375\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f7c140f6f54c38cfd795d6f29077c46\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1f7c140f6f54c38cfd795d6f29077c46\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5d902c19b20fcea9408a071d024ef37f\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5d902c19b20fcea9408a071d024ef37f\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1a44345a77be74b195f18e5080d226ed\navigation-fragment-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1a44345a77be74b195f18e5080d226ed\navigation-fragment-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\16d7dbf726f45bf87ad853f49c213f3a\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\16d7dbf726f45bf87ad853f49c213f3a\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6974fef259cf7f9508452f4cc7f9383\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d6974fef259cf7f9508452f4cc7f9383\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\96a8e6e6603f9d925485e4fb52cd69eb\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\96a8e6e6603f9d925485e4fb52cd69eb\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d8adef6a23f2a2f7bd3f9fdd1f68312d\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d8adef6a23f2a2f7bd3f9fdd1f68312d\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3a70f7e0546a4bebbc8876532cd3b75b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3a70f7e0546a4bebbc8876532cd3b75b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3bc06230401b37c2a5231601daee211f\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3bc06230401b37c2a5231601daee211f\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5ccb87009cbc0bc952edb7b068430603\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5ccb87009cbc0bc952edb7b068430603\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\211df7fa985c2f01143797b6378e1d4e\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\211df7fa985c2f01143797b6378e1d4e\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e6664976a7c5e8b10a9965aa7a6e98ee\navigation-runtime-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e6664976a7c5e8b10a9965aa7a6e98ee\navigation-runtime-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fb4c8e5bd2fd3ea6ed97104b28054599\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fb4c8e5bd2fd3ea6ed97104b28054599\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e631c0f4e3ee8036c4a6ffffcaa9d8b8\navigation-common-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e631c0f4e3ee8036c4a6ffffcaa9d8b8\navigation-common-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9fb4e3e81723a9628fb6f64842d6a72e\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\9fb4e3e81723a9628fb6f64842d6a72e\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\340cc00c3e4d16cbf9f4f2e55bef10c7\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\340cc00c3e4d16cbf9f4f2e55bef10c7\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\63786d2f5f5ed99d7bd2ff059f6718a1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\63786d2f5f5ed99d7bd2ff059f6718a1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce95c830c34f7a393ea0fd2253bd6d4e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ce95c830c34f7a393ea0fd2253bd6d4e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a215aa75c2e2721dbe15a1e4bed798fb\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a215aa75c2e2721dbe15a1e4bed798fb\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a21114b8b7c3afb4a56314d54afbda97\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a21114b8b7c3afb4a56314d54afbda97\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\78ae0d41f904045c7c4e4de191df5215\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\78ae0d41f904045c7c4e4de191df5215\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c384596651bd8f0a88a1e721d0564782\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c384596651bd8f0a88a1e721d0564782\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\de6b11dce8ad35dd829758ea169fb0c9\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\de6b11dce8ad35dd829758ea169fb0c9\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3f8dbfb15cf9d99fc14156456c7e273b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3f8dbfb15cf9d99fc14156456c7e273b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6626e3aa78c516a1a4277055022b73a6\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6626e3aa78c516a1a4277055022b73a6\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\81c46d059f835de5cd4562cfae3f5b1b\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\81c46d059f835de5cd4562cfae3f5b1b\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ff8ae116b0f74cd195c3571248e09b74\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ff8ae116b0f74cd195c3571248e09b74\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:62:13-64:58
+	android:resource
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:64:17-55
+	android:name
+		ADDED from C:\Users\User\OneDrive - Twenty Two Seven\Documents\Development\Kotlin\EasyGas\AndroidDriverPos\App\app\src\main\AndroidManifest.xml:63:17-67
