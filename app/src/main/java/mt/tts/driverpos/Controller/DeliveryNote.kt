@@ -75,6 +75,7 @@ class DeliveryNote : BaseActivity() {
 // 10-NOV-21
         var typeCashInv = customer.CashInvoice
         var custName = customer.Address
+        var custCode = customer.ClientCode
 
         var vatAmountD = BigDecimal(vatAmount).setScale(2, RoundingMode.HALF_EVEN)
         var totalPriceD = BigDecimal(totalPrice).setScale(2, RoundingMode.HALF_EVEN)
@@ -82,8 +83,8 @@ class DeliveryNote : BaseActivity() {
 
 // 10-NOV-21
 //        var orderNumber = driverID + DateFormat.format("yyyyMMdd", dt).toString()
-        var orderNumber = driverID + DateFormat.format("MMddhhmm", dt).toString()
-        var orderDate = DateFormat.format("yyyy-MM-dd", dt).toString()
+        var orderNumber = driverID + DateFormat.format("ddMMhhmm", dt).toString()
+        var orderDate = DateFormat.format("dd-MM-yyyy", dt).toString()
         var orderTime = DateFormat.format("hh:mm:ss a", dt).toString()
 
         var slip = "<table style='width:100%'>" +
@@ -259,7 +260,7 @@ class DeliveryNote : BaseActivity() {
         try {
             val ffile = File(
                     dir,
-                    "O_" + orderNumber + "_" + DateFormat.format("hhmmss", dt).toString() + ".html"
+                    "O_" + custCode +  orderNumber + "_" + DateFormat.format("hhmmss", dt).toString() + ".html"
             )
             val writer = FileWriter(ffile)
             writer.append(html)
@@ -288,6 +289,8 @@ class DeliveryNote : BaseActivity() {
             DriverID = driverID
             DT = dt
             DriverNM = driverName
+            //09FEB22
+            CustCode = customer.ClientCode
             //var success = createWebPrintJob(printSlip, orderNumber)
             var success = createZPLPrint(zpl, variableData)
             if (success)
@@ -381,7 +384,7 @@ class DeliveryNote : BaseActivity() {
     private lateinit var DriverID: String
     private lateinit var DT: Date
     private lateinit var DriverNM: String
-
+    private lateinit var CustCode: String
     private val WRITE_REQUEST_CODE = 101
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -418,7 +421,7 @@ class DeliveryNote : BaseActivity() {
         val intentShareFile = Intent(Intent.ACTION_CREATE_DOCUMENT)
         intentShareFile.addCategory(Intent.CATEGORY_OPENABLE)
         intentShareFile.type = "text/html"
-        intentShareFile.putExtra(Intent.EXTRA_TITLE, "DeliveryNote" + TStamp + ".html")
+        intentShareFile.putExtra(Intent.EXTRA_TITLE, "DeliveryNote" + CustCode + " " + DriverNM + " " +  TStamp + ".html")
         startActivityForResult(intentShareFile, WRITE_REQUEST_CODE);
     }
 
@@ -440,8 +443,8 @@ class DeliveryNote : BaseActivity() {
         intentShareFile.type = "text/html"
         intentShareFile.putExtra(Intent.EXTRA_STREAM, exportUri)
         intentShareFile.putExtra(Intent.EXTRA_EMAIL, arrayOf(ShareEmail, CustomerEmail))
-        intentShareFile.putExtra(Intent.EXTRA_SUBJECT, "Delivery Note (" + TStamp + ")...")
-        intentShareFile.putExtra(Intent.EXTRA_TEXT, "Delivery Note Export from driver " + DriverNM + " on " + DateFormat.format("yyyy-MM-dd hh:mm:ss", DT).toString() + " for order " + TStamp + ".")
+        intentShareFile.putExtra(Intent.EXTRA_SUBJECT, "Delivery Note ( " + " " + CustCode +"_"+ DriverNM + "_"+ TStamp + ")...")
+        intentShareFile.putExtra(Intent.EXTRA_TEXT, "Delivery Note Export from driver " + DriverNM + " on " + DateFormat.format("dd-MM-yyyy hh:mm:ss", DT).toString() + " for order " + TStamp + ".")
         startActivity(intentShareFile)
     }
 //        intentShareFile.putExtra(Intent.EXTRA_TEXT, "Delivery Note Export from driver " + DriverID + " on " + DateFormat.format("yyyy-MM-dd hh:mm:ss", DT).toString() + " for order " + TStamp + ".")
