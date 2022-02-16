@@ -18,6 +18,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.Toast
 import androidx.core.content.FileProvider
+import com.opencsv.bean.CsvCustomBindByName
 import kotlinx.android.synthetic.main.activity_delivery_note.*
 import kotlinx.android.synthetic.main.activity_delivery_note.scr_02_Main
 import kotlinx.android.synthetic.main.activity_settings.*
@@ -35,8 +36,8 @@ class DeliveryNote : BaseActivity() {
     {
         var s = ss
         do {
-            s = " " + s;
-        } while (s.length <= 10);
+            s = " " + s
+        } while (s.length <= 10)
 
         return s;
     }
@@ -69,6 +70,8 @@ class DeliveryNote : BaseActivity() {
         var qty = qty_s.toString().toDouble()
         var price = customer.Price.toDouble()
         var netprice = price.times(qty.toDouble())
+//        var priceD = BigDecimal(price).setScale(4, RoundingMode.HALF_EVEN)
+        var netpriceD = BigDecimal(netprice).setScale(2, RoundingMode.HALF_EVEN)
         var vatRate = 18
         var vatAmount = netprice * vatRate / 100
         var totalPrice = netprice + vatAmount
@@ -79,7 +82,7 @@ class DeliveryNote : BaseActivity() {
 
         var vatAmountD = BigDecimal(vatAmount).setScale(2, RoundingMode.HALF_EVEN)
         var totalPriceD = BigDecimal(totalPrice).setScale(2, RoundingMode.HALF_EVEN)
-        var custPriceD = BigDecimal(customer.Price).setScale(2, RoundingMode.HALF_EVEN)
+        var custPriceD = BigDecimal(customer.Price).setScale(4, RoundingMode.HALF_EVEN)
 
 // 10-NOV-21
 //        var orderNumber = driverID + DateFormat.format("yyyyMMdd", dt).toString()
@@ -105,7 +108,7 @@ class DeliveryNote : BaseActivity() {
                 "<tr><td colspan='2' style='border-bottom:solid'></td></tr>" +
                 "<tr><td style='text-align:left'>Litres:</td><td style='text-align:right'>" + qty_s + "</td></tr>" +
                 "<tr><td style='text-align:left'>Unit Price:</td><td style='text-align:right'>" + custPriceD + "</td></tr>" +
-                "<tr><td style='text-align:left'>Net Price:</td><td style='text-align:right'>" + netprice + "</td></tr>" +
+                "<tr><td style='text-align:left'>Net Price:</td><td style='text-align:right'>" + netpriceD + "</td></tr>" +
                 "<tr><td style='text-align:left'>VAT Rate:</td><td style='text-align:right'>" + vatRate.toString() + "</td></tr>" +
                 "<tr><td style='text-align:left'>Total VAT:</td><td style='text-align:right'>" + vatAmountD + "</td></tr>" +
                 "<tr><td style='text-align:left'>Total:</td><td style='text-align:right'>" + totalPriceD + "</td></tr>" +
@@ -260,7 +263,9 @@ class DeliveryNote : BaseActivity() {
         try {
             val ffile = File(
                     dir,
-                    "O_" + custCode +  orderNumber + "_" + DateFormat.format("hhmmss", dt).toString() + ".html"
+            //        "O_" + custCode +  orderNumber + "_" + DateFormat.format("hhmmss", dt).toString() + ".html"
+                //09 FEB22 - Client Name and Order number - Requested  by Ruth
+                "O_" + custName + "  " + orderNumber + ".html"
             )
             val writer = FileWriter(ffile)
             writer.append(html)
@@ -291,6 +296,7 @@ class DeliveryNote : BaseActivity() {
             DriverNM = driverName
             //09FEB22
             CustCode = customer.ClientCode
+            CustName = customer.Address
             //var success = createWebPrintJob(printSlip, orderNumber)
             var success = createZPLPrint(zpl, variableData)
             if (success)
@@ -385,6 +391,7 @@ class DeliveryNote : BaseActivity() {
     private lateinit var DT: Date
     private lateinit var DriverNM: String
     private lateinit var CustCode: String
+    private lateinit var CustName: String
     private val WRITE_REQUEST_CODE = 101
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -421,7 +428,8 @@ class DeliveryNote : BaseActivity() {
         val intentShareFile = Intent(Intent.ACTION_CREATE_DOCUMENT)
         intentShareFile.addCategory(Intent.CATEGORY_OPENABLE)
         intentShareFile.type = "text/html"
-        intentShareFile.putExtra(Intent.EXTRA_TITLE, "DeliveryNote" + CustCode + " " + DriverNM + " " +  TStamp + ".html")
+       // intentShareFile.putExtra(Intent.EXTRA_TITLE, "DeliveryNote" + CustCode + " " + DriverNM + " " +  TStamp + ".html")
+        intentShareFile.putExtra(Intent.EXTRA_TITLE, "DeliveryNote" + CustName + " " + DriverNM + " " +  TStamp + ".html")
         startActivityForResult(intentShareFile, WRITE_REQUEST_CODE);
     }
 
@@ -443,7 +451,9 @@ class DeliveryNote : BaseActivity() {
         intentShareFile.type = "text/html"
         intentShareFile.putExtra(Intent.EXTRA_STREAM, exportUri)
         intentShareFile.putExtra(Intent.EXTRA_EMAIL, arrayOf(ShareEmail, CustomerEmail))
-        intentShareFile.putExtra(Intent.EXTRA_SUBJECT, "Delivery Note ( " + " " + CustCode +"_"+ DriverNM + "_"+ TStamp + ")...")
+ //       intentShareFile.putExtra(Intent.EXTRA_SUBJECT, "Delivery Note ( " + " " + CustCode +"_"+ DriverNM + "_"+ TStamp + ")...")
+ // 09 FEB22
+        intentShareFile.putExtra(Intent.EXTRA_SUBJECT, "Delivery Note ( " + " " + CustName +"_"+ TStamp + ")...")
         intentShareFile.putExtra(Intent.EXTRA_TEXT, "Delivery Note Export from driver " + DriverNM + " on " + DateFormat.format("dd-MM-yyyy hh:mm:ss", DT).toString() + " for order " + TStamp + ".")
         startActivity(intentShareFile)
     }
