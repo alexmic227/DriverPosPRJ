@@ -12,19 +12,20 @@ class ReadCSV {
             val reader = CSVReader(bufferedReader)
             var nextLine: Array<String>
 
-
             try {
 
                 while (reader.readNext().also { nextLine = it } != null) {
                     // nextLine[] is an array of values from the line
-                    if (nextLine[1].equals("driver", true))  {
-
-                        if ((driverID != "") && (!(nextLine[2].equals(driverID, true))))
-                        {
-                            throw java.lang.Exception("Incorrect File - Driver ID Mismatch found " + nextLine[2] + " expected " + driverID)
-                        }
-                    }
-                    else if (!((nextLine[0].equals("address", true)) || (nextLine[1].equals("Postcode", true)))) {
+//7 MAR 22
+//                    if (nextLine[1].equals("driver", true))  {
+//
+ //                        if ((driverID != "") && (!(nextLine[2].equals(driverID, true))))
+ //                       {
+ //                           throw java.lang.Exception("Incorrect File - Driver ID Mismatch found " + nextLine[2] + " expected " + driverID)
+ //                       }
+ //                   }
+ //                   else
+                    if (!((nextLine[0].equals("address", true)) || (nextLine[1].equals("Postcode", true)))) {
 
                         var col4 = nextLine[4]
                         if (col4.isNullOrBlank()) col4 = "0"
