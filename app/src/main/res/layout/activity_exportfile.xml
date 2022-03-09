@@ -46,16 +46,16 @@
     <TextView
         android:id="@+id/fileContents"
         android:layout_width="0dp"
-        android:layout_margin="10dp"
         android:layout_height="0dp"
-        android:text=""
+        android:layout_margin="10dp"
         android:background="@color/white"
+        android:text=""
         app:layout_constraintBottom_toTopOf="@+id/scr05_SavBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lbfile"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/titleAdmin"
