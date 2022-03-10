@@ -15,6 +15,9 @@ import mt.tts.driverpos.R
 import mt.tts.driverpos.Utilities.*
 import java.io.*
 
+//Page: ADMINISTRATON
+//Section: IMPORT CSV FILE
+
 class InputActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +52,7 @@ class InputActivity : BaseActivity() {
                     val inputStream2: InputStream? = contentResolver.openInputStream(uri) //copy for saving in internal storage
 
                     val bufferedReader = BufferedReader(InputStreamReader(inputStream))
+                    //Call Utilities -> ReadCSV
                     ReadCSV.ReadClientsCSV(bufferedReader, driverID)
                     inputStream?.close()
 

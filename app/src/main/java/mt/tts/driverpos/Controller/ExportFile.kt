@@ -28,6 +28,7 @@ ExportFile : BaseActivity() {
         var sBody = bufferedReader2.readText()
         bufferedReader2.close()
 
+
         fileContents.setText(sBody)
 
         scr05_SavBtn.setOnClickListener {
@@ -55,7 +56,7 @@ ExportFile : BaseActivity() {
                 intentShareFile.putExtra(Intent.EXTRA_STREAM, exportUri)
                 intentShareFile.putExtra(Intent.EXTRA_EMAIL, Array<String>(1) { shareEmail })
  //               intentShareFile.putExtra(Intent.EXTRA_SUBJECT,"Orders CSV (" + tstamp + ")...")
-                intentShareFile.putExtra(Intent.EXTRA_SUBJECT,"Sheet1")
+                intentShareFile.putExtra(Intent.EXTRA_SUBJECT,"Sheet1.csv")
                 intentShareFile.putExtra(Intent.EXTRA_TEXT, "POS Export from driver " + driverID +" on " + DateFormat.format("yyyy-MM-dd hh:mm:ss", dt).toString()+".")
                 startActivity(intentShareFile)
             }

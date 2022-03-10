@@ -6,7 +6,8 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_delivery_note.scr_02_Main
 import kotlinx.android.synthetic.main.activity_settings.*
 import mt.tts.driverpos.R
-
+//Page: ADMINISTRATION
+//Section: SETTINGS
 
 class SettingsSave : BaseActivity() {
 

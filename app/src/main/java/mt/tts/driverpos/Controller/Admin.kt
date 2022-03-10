@@ -7,8 +7,10 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.text.InputType
 import android.widget.EditText
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_admin.*
 import mt.tts.driverpos.R
+import java.io.File
 
 
 class Admin : BaseActivity() {
@@ -19,7 +21,8 @@ class Admin : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin)
 
-        val settings: SharedPreferences = applicationContext.getSharedPreferences("driverpos", MODE_PRIVATE)
+        val settings: SharedPreferences =
+            applicationContext.getSharedPreferences("driverpos", MODE_PRIVATE)
 
         //========================================================================================================
         //Password Popup
@@ -30,17 +33,18 @@ class Admin : BaseActivity() {
         input.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
         builder.setView(input)
         builder.setPositiveButton("OK", DialogInterface.OnClickListener { dialog,
-                                                                          which -> m_Text = input.text.toString()
+                                                                          which ->
+            m_Text = input.text.toString()
             val passcode: String = settings.getString("passcode", "12345").toString()
-            if (!m_Text.equals(passcode))
-            {
+            if (!m_Text.equals(passcode)) {
                 dialog.cancel()
                 val mainActivityIntent = Intent(this, MainActivity::class.java)
                 startActivity(mainActivityIntent)
             }
         })
         builder.setNegativeButton("Cancel", DialogInterface.OnClickListener { dialog,
-                                                                              which -> dialog.cancel()
+                                                                              which ->
+            dialog.cancel()
             val mainActivityIntent = Intent(this, MainActivity::class.java)
             startActivity(mainActivityIntent)
         })
@@ -48,8 +52,7 @@ class Admin : BaseActivity() {
         builder.setOnCancelListener {
 
             val passcode: String = settings.getString("passcode", "12345").toString()
-            if (!m_Text.equals(passcode))
-            {
+            if (!m_Text.equals(passcode)) {
                 val mainActivityIntent = Intent(this, MainActivity::class.java)
                 startActivity(mainActivityIntent)
             }
@@ -63,6 +66,11 @@ class Admin : BaseActivity() {
             startActivity(export)
         }
 
+        scr01_Import_Btn.setOnClickListener {
+            val importCSVFile = Intent(this, InputActivity::class.java)
+            startActivity(importCSVFile)
+        }
+
         btnSettings.setOnClickListener {
             val settings = Intent(this, SettingsSave::class.java)
             startActivity(settings)
@@ -73,14 +81,69 @@ class Admin : BaseActivity() {
             startActivity(filesStorage)
         }
 
-        scr01_Import_Btn.setOnClickListener {
-            val importCSVFile = Intent(this, InputActivity::class.java)
-            startActivity(importCSVFile)
+        btnClrExportFile.setOnClickListener {
+//            val filesStorage = Intent(this, FilesActivity::class.java)
+//            startActivity(filesStorage)
+
+//            val mainActivityIntent = Intent(this, MainActivity::class.java)
+//            startActivity(mainActivityIntent)
+
+            //Password Popup
+            val builderCEF: AlertDialog.Builder = AlertDialog.Builder(this)
+            builderCEF.setTitle("Enter Secret Code")
+
+            val input = EditText(this)
+            input.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+            builderCEF.setView(input)
+            builderCEF.setPositiveButton("OK", DialogInterface.OnClickListener { dialog,
+                                                                              which ->
+                m_Text = input.text.toString()
+                val passcode: String = settings.getString("passcode", "227").toString()
+                if (!m_Text.equals(passcode)) {
+                    dialog.cancel()
+                    val mainActivityIntent = Intent(this, MainActivity::class.java)
+                    startActivity(mainActivityIntent)
+                }
+            })
+            builderCEF.setNegativeButton("Cancel", DialogInterface.OnClickListener { dialog,
+                                                                                  which ->
+                dialog.cancel()
+                val mainActivityIntent = Intent(this, MainActivity::class.java)
+                startActivity(mainActivityIntent)
+            })
+
+            builderCEF.setOnCancelListener {
+
+                val passcode: String = settings.getString("passcode", "227").toString()
+                if (!m_Text.equals(passcode)) {
+                    val mainActivityIntent = Intent(this, MainActivity::class.java)
+                    startActivity(mainActivityIntent)
+                }
+            }
+            builderCEF.show()
+            //If all is well till here we make a copy of the file to internal app storage
+
+            val dir = File(applicationContext.getFilesDir(), "DriverPOSData")
+            if (!dir.exists()) {
+                dir.mkdir()
+            }
+            try {
+                val exportFile = File(dir, "output.csv")
+                if (exportFile.exists())
+                {
+                    exportFile.delete()
+                }
+            } catch (e: Exception) {
+            }
+            Toast.makeText(applicationContext, "DELETED Export file", android.widget.Toast.LENGTH_LONG).show()
+
+
+
         }
 
         btnMain.setOnClickListener() {
-            val mainActivityIntent = Intent(this, MainActivity::class.java)
-            startActivity(mainActivityIntent)
-        }
+                val mainActivityIntent = Intent(this, MainActivity::class.java)
+                startActivity(mainActivityIntent)
+            }
     }
 }

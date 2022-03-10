@@ -17,6 +17,8 @@ import mt.tts.driverpos.R
 import java.util.*
 import kotlin.collections.ArrayList
 
+//Page: ADMINISTRATION
+//Section: FILE STORAGE
 
 class FilesActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

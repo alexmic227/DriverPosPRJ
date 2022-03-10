@@ -87,6 +87,7 @@
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_print_p_d_f">printPDF</string>
     <string name="savepdf">SavePDF</string>
+    <string name="clear_export_file">CLEAR EXPORT FILE</string>
 
 
 </resources>

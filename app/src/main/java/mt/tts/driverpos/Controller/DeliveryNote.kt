@@ -313,6 +313,7 @@ class DeliveryNote : BaseActivity() {
                         outputFile.write(customer.Address +"," +customer.ClientCode + ","  + qty_s + ","  + typeCashInv + ","+ price + "," + orderDate + "," + orderNumber + ","+ "\r\n");
                         outputFile.flush();
                         outputFile.close();
+
                     } catch (e: Exception) {
                     }
                 }
